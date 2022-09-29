@@ -6,8 +6,13 @@
   box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+  }
+
 body {
   font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 .nav-container {
@@ -45,6 +50,7 @@ body {
 }
 
 .content-wrapper {
+    width: 1768px;
   margin-left: 150px;
   background-color: #ffffff;
 }
@@ -142,12 +148,12 @@ body {
 
 .footer {
   position: absolute;
+  width: 1768px;
   left: 150px;
   right: 0;
   top: calc(935px - 79px);
   height: 79px;
   padding-left: 129px;
-
   background: #ffffff;
   border-top: 1px #dedede solid;
 }
