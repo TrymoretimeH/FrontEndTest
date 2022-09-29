@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-container {
+  position: absolute;
+  width: 150px;
+  height: 935px;
+  background-color: #191718;
+}
+
+.home-item,
+.services-item,
+.news-item,
+.blog-item,
+.contact-item {
+  height: 44px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 14px 0 11px 16px;
+  color: #aaaaaa;
+  border-bottom: 1px #5c5c5c solid;
+}
+
+.home-item {
+  color: #ffffff;
+}
+.home-item:hover,
+.services-item:hover,
+.news-item:hover,
+.blog-item:hover,
+.contact-item:hover {
+  user-select: none;
+  color: #ffffff;
+  background-color: #5c5c5c;
+}
+
+.content-wrapper {
+  margin-left: 150px;
+  background-color: #ffffff;
+}
+
+.logo {
+  width: 310px;
+  height: 122px;
+  margin: 0 729px;
+}
+
+.logo-img {
+  margin-top: 20px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  width: 1510px;
+  margin: 0 129px;
+  margin-top: 50px;
+  height: 210px;
+  background-color: #efefef;
+  color: #000000;
+}
+
+.about-title {
+  margin-top: 38px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.about-content {
+  width: 64%;
+  margin: 18px 0 38px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.description {
+  display: flex;
+  width: 1510px;
+  height: 210px;
+  margin: 40px 129px 0;
+  justify-content: space-between;
+}
+
+.desc-css,
+.desc-html,
+.desc-url {
+  width: 470px;
+  height: 252px;
+}
+
+.css-title,
+.html-title,
+.url-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.css-content,
+.css-sub-content,
+.html-content,
+.html-sub-content,
+.url-content,
+.url-sub-content {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.css-img,
+.html-img,
+.url-img {
+  width: 128px;
+  height: 128px;
+  margin-right: 16px;
+  margin-bottom: 6px;
+}
+
+.first-line {
+  display: flex;
+  margin-top: 18px;
+}
+
+.footer {
+  position: absolute;
+  left: 150px;
+  right: 0;
+  top: calc(935px - 79px);
+  height: 79px;
+  padding-left: 129px;
+
+  background: #ffffff;
+  border-top: 1px #dedede solid;
+}
+
+.footer p {
+  width: 125px;
+  height: 19px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 79px;
+  color: #3e3e3e;
+}
